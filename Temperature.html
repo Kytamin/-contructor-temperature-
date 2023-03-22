@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    class Temperature{
+        celsius;
+        constructor(celsius) {
+            this.celsius=celsius
+        }
+        fahHeit(){
+            return (this.celsius *9/5)+32
+        }
+       kelVins(){
+            return this.celsius+273.15
+        }
+    }
+     let newdegree= new Temperature(25)
+       document.write(`${newdegree.fahHeit()} <br> ${newdegree.kelVins()} `)
+
+
+
+
+</script>
